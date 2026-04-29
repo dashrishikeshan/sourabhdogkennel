@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Sourabh Dog Kennel</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-shell">
+      <a class="brand" href="index.html"><span class="brand-mark">SDK</span><span class="brand-text"><span>Sourabh Dog Kennel</span><span>Premium Dog Care</span></span></a>
+      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a class="active" href="contact.html">Contact Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container page-hero-grid">
+        <div>
+          <p class="eyebrow">Contact Us</p>
+          <h1><span>Plan a visit,</span> <span class="title-teal">ask a question</span> <span class="title-gold">or start your dog care journey.</span></h1>
+          <p class="lead">Share your requirement and the team will guide you toward the right service.</p>
+        </div>
+        <div class="page-hero-image">
+          <img src="assets/images/hero-dogs.jpg" alt="Two healthy dogs sitting together">
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container contact-grid">
+        <aside class="contact-panel">
+          <p class="eyebrow">Reach Us</p>
+          <h2>Let us help you choose confidently.</h2>
+          <div class="contact-line"><span class="icon" aria-hidden="true">☎</span><div><h3>Phone</h3><p>+91 98765 43210</p></div></div>
+          <div class="contact-line"><span class="icon" aria-hidden="true">@</span><div><h3>Email</h3><p>care@sourabhdogkennel.com</p></div></div>
+          <div class="contact-line"><span class="icon" aria-hidden="true">⌂</span><div><h3>Visit</h3><p>Sourabh Dog Kennel, India</p></div></div>
+        </aside>
+
+        <form class="form-panel" data-contact-form>
+          <div class="form-grid">
+            <div class="field"><label for="name">Name</label><input id="name" name="name" type="text" required></div>
+            <div class="field"><label for="phone">Phone</label><input id="phone" name="phone" type="tel" required></div>
+            <div class="field"><label for="service">Service</label><select id="service" name="service"><option>Breeding</option><option>Adoption</option><option>Hosteling</option><option>Legal Documentation</option></select></div>
+            <div class="field"><label for="date">Preferred Date</label><input id="date" name="date" type="date"></div>
+            <div class="field full"><label for="message">Message</label><textarea id="message" name="message" placeholder="Tell us about your dog care requirement"></textarea></div>
+          </div>
+          <button class="btn btn-primary" type="submit">Send Enquiry</button>
+          <p class="form-note" data-form-note></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="footer-shell"><a class="brand" href="index.html"><span class="brand-mark">SDK</span><span class="brand-text"><span>Sourabh Dog Kennel</span><span>Premium Dog Care</span></span></a><span>Premium care, clear guidance and comfortable stays.</span></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
